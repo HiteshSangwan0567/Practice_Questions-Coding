@@ -1,5 +1,4 @@
 / C++ program for reversal algorithm
-// of array rotation
 #include
 using namespace std;
 
@@ -9,7 +8,7 @@ void rvereseArray(int arr[], int start, int end)
 while (start < end) { int temp = arr[start]; arr[start] = arr[end]; arr[end] = temp; start++;
 end--;
 }
-} /* Function to left rotate arr[] of size n by d */
+}
 void leftRotate(int arr[], int d, int n)
 {
     if (d == 0) return;
